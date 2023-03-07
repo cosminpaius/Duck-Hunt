@@ -35,7 +35,9 @@ ecran, se va considera ca un glonț a fost tras în acel punct pe ecran și num�
 
 
     INTERSECTIA GLONTULUI CU RATA
-  Având în vedere că rațele au o formă destul de complexă, ar fi greu de calculat exact ce puncte de pe ecran se intersectează cu ele. Așadar, le puteți aproxima sub forma unui dreptunghi în care este încadrată rața (similar figurii de mai jos). Pentru a calcula coordonatele colțurilor acestui pătrat, puteți folosi câteva noțiuni de geometrie în plan, aplicate în funcție de coordonatele la care se află punctele de pe silueta raței.
+  Având în vedere că rațele au o formă destul de complexă, ar fi greu de calculat exact ce puncte de pe ecran se intersectează cu ele. Așadar, le puteți aproxima sub
+forma unui dreptunghi în care este încadrată rața (similar figurii de mai jos). Pentru a calcula coordonatele colțurilor acestui pătrat, puteți folosi câteva noțiuni
+de geometrie în plan, aplicate în funcție de coordonatele la care se află punctele de pe silueta raței.
   Pătratul încadrator este mult mai ușor de calculat dacă toate coordonatele locale ale primitivelor din care este construită rața sunt calculate față de un punct
 cât mai apropiat de centrul raței (detalii secțiunea “Rața - Construcție”).
   Pentru a afla dacă mouse-ul se află în interiorul dreptunghiului încadrator al raței, trebuie făcută o conversie din coordonate de vizualizare către coordonatele
@@ -48,7 +50,8 @@ transformare similară cu transformarea fereastră - poartă (detaliată tot în
   Input-ul de la mouse se poate trata în funcția “OnMouseMove” din framework. Aceasta are 4 parametri: mouseX, mouseY, deltaX, deltaY. Primele 2 se referă la poziția
 la care se află cursorul în momentul în care se apelează funcția, în pixeli. Numerotarea începe din colțul stânga-sus al ferestrei de vizualizare în (0, 0). Cei 2
 parametri din urmă se referă la deplasarea exactă (tot în pixeli) a cursorului de la poziția sa în frame-ul anterior pana la poziția sa în frame-ul în care a fost
-apelată funcția. De exemplu, daca mouse-ul s-a mișcat de la poziția (1200, 300) la poziția (1220, 294) în intervalul de la ultimul frame până la cel curent, vom avea următoarele valori: mouseX = 1220, mouseY = 294, deltaX = 20, deltaY = -6.
+apelată funcția. De exemplu, daca mouse-ul s-a mișcat de la poziția (1200, 300) la poziția (1220, 294) în intervalul de la ultimul frame până la cel curent, vom avea
+următoarele valori: mouseX = 1220, mouseY = 294, deltaX = 20, deltaY = -6.
       
     EVADAREA RATEI
   În momentul în care toate cele 3 gloanțe au fost consumate fără a fi fost împușcată rața, aceasta evadează. De asemenea, dacă rața nu a fost împușcată timp de
