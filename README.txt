@@ -30,7 +30,7 @@ descrise la secțiunea “Rațe - Mișcare”. După generarea a câte 5 rațe, 
 
     TRASUL CU PUSCA
   Pentru a împușca o rață, jucătorul are la dispoziție 3 gloanțe care se reîncarcă de fiecare dată când apare o nouă rață. De fiecare dată când acesta face clic pe
-ecran, se va considera ca un glonț a fost tras în acel punct pe ecran și numărul de gloanțe disponibile va scădea cu 1. Dacă punctul de pe ecran (detalii Intersecția glonțului cu rața”) care a fost împușcat intersectează rața, ea va fi considerată împușcată, scorul (detalii secțiunea “Scor”) va crește și rața va cădea pe sol.
+ecran, se va considera ca un glonț a fost tras în acel punct pe ecran și numărul de gloanțe disponibile va scădea cu 1. Dacă punctul de pe ecran (detalii in sectiunea "Intersecția glonțului cu rața”) care a fost împușcat intersectează rața, ea va fi considerată împușcată, scorul (detalii secțiunea “Scor”) va crește și rața va cădea pe sol.
 
 
     INTERSECTIA GLONTULUI CU RATA
